@@ -1,6 +1,6 @@
 //Dynamic route
 import Layout from '../../components/Layout';
-import styles from './Coin.module.css';
+import styles from './Coin.module.scss';
 
 const Coin = ({coin}) => {
   return (

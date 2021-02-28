@@ -1,4 +1,4 @@
-import styles from './Coins.module.css';
+import styles from './Coins.module.scss';
 import Link from 'next/link';
 
 const Coins = ({ name, price, symbol, marketcap, volume, image, priceChange, id }) => {

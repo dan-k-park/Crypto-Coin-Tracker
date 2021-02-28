@@ -25,12 +25,19 @@ body {
   background-color: #101012;
 }
 
-.coin_app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-  color: #fff;
+.coin {
+  &_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  &_logo {
+    height: 200px;
+    width: 200px;
+  }
 }
 
 /* Layout CSS */
@@ -42,8 +49,4 @@ body {
 .header {
   display: flex;
   justify-content: center;
-}
-.coin_logo {
-  height: 200px;
-  width: 200px;
 }
