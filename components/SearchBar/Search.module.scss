@@ -7,8 +7,8 @@
   }
 
   &_input {
-    background: #222531;
-    color: #e2e2e2;
+    background: #dddddd;
+    color: #222531;
     border: none;
     padding: 16px;
     border-radius: 4px;
@@ -17,7 +17,7 @@
     width: 100%;
 
     &_::placeholder {
-      color: #e2e2e2;
+      color: #222531;
     }
   }
 }

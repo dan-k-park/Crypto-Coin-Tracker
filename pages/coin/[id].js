@@ -14,7 +14,7 @@ const Coin = ({coin}) => {
           {coin.name}
           </h1>
           <p className={styles.coin_ticker}>{coin.symbol}</p>
-          <p className={styles.coin_current}>{coin.market_data.current_price.usd}</p>
+          <p className={styles.coin_current}>${coin.market_data.current_price.usd} USD</p>
         </div>
       </div>
     </Layout>
